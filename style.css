@@ -32,7 +32,17 @@ p {
 img {
   width: 80%;
 }
+@media (max-width: 1028px) {
 
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
 .social{
   width: 100%;
   margin : 0 auto;
